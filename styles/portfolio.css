@@ -105,3 +105,7 @@ main {
     font-weight: bold;
     font-size: 20px;
 }
+/* skills section styles */
+.skills-container {
+    display: flex;
+}
