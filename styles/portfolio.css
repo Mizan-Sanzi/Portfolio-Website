@@ -130,3 +130,36 @@ border-radius: 5px;
     display: flex;
     gap: 24px;
 }
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title {
+    color: #757575
+}
+.download-cv {
+    margin-top: 50px;
+}
+/* footer styles */
+footer input[type="text"], footer input[type="email"] {
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+footer {
+    padding: 100px 200px 50px 100px;
+    display: flex;
+}
+footer input[type="submit"] {
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    float: right;
+}
+footer textarea {
+    width: 110%;
+}
