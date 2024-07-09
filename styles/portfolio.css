@@ -55,11 +55,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 50px 50px 50px 200px;
 }
 .nav-title {
     font-weight: 800;
-    font-size: 45px;
+    font-size: 50px;
 }
 nav ul li {
     list-style: none;
@@ -77,19 +77,24 @@ nav ul a {
 }
 .banner-content {
     max-width: 580px;
+    padding-bottom: 0px;
 }
 .banner-greetings {
     font-size: 45px;
     font-weight: 600px;
-    padding: auto;
+    padding: 0px 0px 0px 0px;
 }
 .banner-title {
     font-weight: bold;
-    font-size: 85px;
-    padding: auto;
+    font-size: 60px;
+    padding: 1px;
+    margin-bottom: 0px;
 }
 .banner-profile-pic {
     width: 584px;
+}
+.banner-description {
+    margin-bottom: 20px;
 }
 /* main styles */
 main {
@@ -103,7 +108,7 @@ main section {
 /* about styles */
 .about {
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 100px 150px;
     text-align: center;
     
 }
